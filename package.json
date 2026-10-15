@@ -1,0 +1,20 @@
+{
+  "name": "cabinet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --reporter=line",
+    "test:api": "playwright test tests/api --reporter=line",
+    "test:auth": "playwright test tests/api/auth.spec.ts --reporter=line",
+    "test:ui": "playwright test tests/ui --reporter=html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^24.9.1"
+  }
+}
